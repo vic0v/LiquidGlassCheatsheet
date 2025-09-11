@@ -350,6 +350,56 @@ struct SearchView: View {
 }
 ```
 
+### Bottom Accessory View
+
+<div align="center">
+  <img src="images/bottomView.gif" alt="Glass Tab Bar with Search" width=250/>
+
+</div>
+
+There is a new modifier called `.tabViewBottomAccessory` that allow us to create a view that sticks at the bottom of the screen, on top of the Tab Bar. With the modifier `.tabBarMinimizeBehavior(.onScrollDown)` we can minimize the tab bar when scrolling and the bottom accesory will move next to the minimized tab bar.
+
+```swift
+struct GlassTabView: View {
+    @State private var selectedTab = 0
+    
+    var body: some View {
+        TabView(selection: $selectedTab) {
+            Tab("Home", systemImage: "house", value: 0) {
+                placeholderList
+            }
+            
+            Tab("Search", systemImage: "magnifyingglass", value: 1, role: .search) {
+                SearchView()
+            }
+            
+            Tab("Profile", systemImage: "person", value: 1) {
+                MorphingGlassView()
+            }
+        }
+        .tint(.black)
+        .tabViewBottomAccessory {
+            Text("Bottom accesory view")
+        }
+        .tabBarMinimizeBehavior(.onScrollDown)
+    }
+    
+    private var placeholderList: some View {
+        List {
+            ForEach(Array(0...30), id: \.self) { index in
+                Text("Row \(index)")
+                    .foregroundStyle(.black)
+                    .bold()
+                    .padding(.vertical)
+                    .listRowBackground(
+                        Color(hue: CGFloat(index) / 30.0, saturation: 0.55, brightness: 0.9)
+                    )
+            }
+        }
+    }
+}
+```
+
 ## Resources and References
 
 - [Adopting Liquid Glass - Apple Developer Documentation](https://developer.apple.com/documentation/technologyoverviews/adopting-liquid-glass)
